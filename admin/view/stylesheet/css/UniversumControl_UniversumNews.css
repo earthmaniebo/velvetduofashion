@@ -1,0 +1,447 @@
+/* -----------------------------------------------------
+// News Module for BigOne Premium theme by Dimitar Koev 
+// Copyright (C) 2012 Dimitar Koev. All Rights Reserved!
+// Author: Dimitar Koev
+// Author websites: http://www.althemist.com  /  http://www.dimitarkoev.com
+// @license - Copyrighted Commercial Software                           
+// support@althemist.com                          
+//------------------------------------------------------
+*/
+.box > .heading {
+	background: url("../images/news_icon.png") 15px 51% no-repeat;
+	background-color:#333;
+	border:none;
+	padding:15px;
+	height:58px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	margin-bottom:20px;
+}
+.box > .heading h1 {
+    color: #f8f8f8;
+    float: left;
+    font-size: 21px;
+    margin: 0;
+    padding:17px 0 0 75px;
+	text-transform:uppercase;
+}
+.box > .heading a.button {
+    background: url("../images/back_button.png") top center no-repeat;
+    color: #666;
+	font-size:12px;
+	font-weight:bold;
+    display: inline-block;
+	height:29px;
+    margin-right: 5px;
+    padding:15px 20px 2px 20px;
+    text-decoration: none;
+	text-transform:uppercase;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 6px #000;
+}
+input.spicy, select.spicy {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-color: #DDDDDD #EEEEEE #EEEEEE #DDDDDD;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 4px;
+	margin-left:8px;
+	margin-right:8px;
+}
+.box > .column_1 {
+	width:49%;
+	float:left;
+}
+.box > .column_2 {
+	width:49%;
+	float:right;
+}
+.content {
+	margin:0 0 20px 0;
+	background-color:#f8f8f8;
+	border:none;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	min-height:100px;
+	padding:10px;
+}
+.content_last {
+	margin:0 0 20px 0;
+	background-color:#f8f8f8;
+	border:none;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	padding:10px;
+}
+.content_full {
+	margin:0 0 20px 0;
+	background-color:#f8f8f8;
+	border:none;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	padding:10px;
+
+}
+#tabs {
+	float:left;
+	width:220px;
+	height:100% !important;
+	padding:20px 20px 60px 20px;
+	background:url("../images/back_cat_menu.png") bottom center no-repeat;
+	background-color:none !important;
+	text-align:center;
+}
+#tabs a{
+	padding:10px 0;
+	clear:both;
+	color:#666666;
+	margin:0 auto;
+	float:left;
+	clear:both;
+	width:100%;
+	background:none !important;
+	border:none;
+	border-bottom:1px solid #444444;
+}
+#tabs a:hover {
+	color:#f1f1f1;	
+}
+#tabs a.selected {
+	color:#f1f1f1;	
+}
+.htabs-content h2, .htabs-content h2, .content_full h2 {
+	background:url("../images/pat1.png") top left repeat;
+	background-color:#f1f1f1;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	margin:0 0 30px 0;
+}
+.htabs-content h2 span, .htabs-content h2 span, .content_full h2 span {
+	padding:10px 0 10px 45px;
+	display:block;	
+}
+h2.colors span{
+	background:url("../images/colors.png") 10px 40% no-repeat;
+}
+h2.fonts span{
+	background:url("../images/font.png") 10px 50% no-repeat;
+}
+h2.backgrounds span{
+	background:url("../images/icons.png") 10px 50% no-repeat;
+}
+h2.twitter span{
+	background:url("../images/bird_icon.png") 10px 50% no-repeat;
+}
+h2.layout span{
+	background:url("../images/layout_icon.png") 10px 60% no-repeat;
+}
+h2.on_off span{
+	background:url("../images/cache.png") 10px 50% no-repeat;
+}
+h2.facebook span{
+	background:url("../images/facebook_icon.png") 10px 50% no-repeat;
+}
+h2.skype span{
+	background:url("../images/skype_icon.png") 10px 50% no-repeat;
+}
+table.form td .default_value {
+	color:#999;
+	font-size:11px;
+}
+span.helper {
+	color:#900;
+	font-size:11px;
+}
+.htabs {
+	width:100%;
+}
+.htabs-content {
+	margin-bottom:25px!Important;
+	padding-bottom:25px;
+	margin-left:300px;
+	border-bottom:1px solid #e1e1e1;
+}
+td.visa {
+	background:url("../images/visa-curved-32px.png") 0px 8px no-repeat;
+}
+td.electron {
+	background:url("../images/visa-electron-curved-32px.png") 0px 8px no-repeat;
+}
+td.master {
+	background:url("../images/mastercard-curved-32px.png") 0px 8px no-repeat;
+}
+td.maestro {
+	background:url("../images/maestro-curved-32px.png") 0px 8px no-repeat;
+}
+td.american {
+	background:url("../images/american-express-curved-32px.png") 0px 8px no-repeat;
+}
+td.cirrus {
+	background:url("../images/cirrus-curved-32px.png") 0px 8px no-repeat;
+}
+td.two_checkout {
+	background:url("../images/2checkout-curved-32px.png") 0px 8px no-repeat;
+}
+td.delta {
+	background:url("../images/delta-curved-32px.png") 0px 8px no-repeat;
+}
+td.discover {
+	background:url("../images/discover-curved-32px.png") 0px 8px no-repeat;
+}
+td.google {
+	background:url("../images/google-checkout-curved-32px.png") 0px 8px no-repeat;
+}
+td.moneybookers {
+	background:url("../images/moneybookers-curved-32px.png") 0px 8px no-repeat;
+}
+td.sage {
+	background:url("../images/sagepay-curved-32px.png") 0px 8px no-repeat;
+}
+td.paypal {
+	background:url("../images/paypal-curved-32px.png") 0px 8px no-repeat;
+}
+td.solo {
+	background:url("../images/solo-curved-32px.png") 0px 8px no-repeat;
+}
+td.switch {
+	background:url("../images/switch-curved-32px.png") 0px 8px no-repeat;
+}
+td.western {
+	background:url("../images/western-union-curved-32px.png") 0px 8px no-repeat;
+}
+.preview {
+	width:140px;
+	height:140px;
+	float:left;
+	margin:0 20px 20px 0;
+	border:1px solid #eeeeee;
+	padding:7px;
+	text-align:center;
+	position:relative;
+}
+.preview b {
+	display:block;
+	text-align:center;
+	width:20px;
+	height:20px;
+	color:#ffffff;
+	background-color:#333333;
+	position:absolute;
+	top:-5px;
+	right:-5px;
+}
+.prev1 {
+	background:url("../images/backgrounds/pattern1.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev2 {
+	background:url("../images/backgrounds/pattern2.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev3 {
+	background:url("../images/backgrounds/pattern3.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev4 {
+	background:url("../images/backgrounds/pattern4.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev5 {
+	background:url("../images/backgrounds/pattern5.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev6 {
+	background:url("../images/backgrounds/pattern6.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev7 {
+	background:url("../images/backgrounds/pattern7.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev8 {
+	background:url("../images/backgrounds/pattern8.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev9 {
+	background:url("../images/backgrounds/pattern9.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev10 {
+	background:url("../images/backgrounds/pattern10.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev11 {
+	background:url("../images/backgrounds/pattern11.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev12 {
+	background:url("../images/backgrounds/pattern12.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev13 {
+	background:url("../images/backgrounds/pattern13.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev14 {
+	background:url("../images/backgrounds/pattern14.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev15 {
+	background:url("../images/backgrounds/pattern15.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev16 {
+	background:url("../images/backgrounds/pattern16.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev17 {
+	background:url("../images/backgrounds/pattern17.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev18 {
+	background:url("../images/backgrounds/pattern18.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev19 {
+	background:url("../images/backgrounds/pattern19.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev20 {
+	background:url("../images/backgrounds/pattern20.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev21 {
+	background:url("../images/backgrounds/pattern21.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev22 {
+	background:url("../images/backgrounds/pattern22.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev23 {
+	background:url("../images/backgrounds/pattern23.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev24 {
+	background:url("../images/backgrounds/pattern24.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev25 {
+	background:url("../images/backgrounds/pattern25.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev26 {
+	background:url("../images/backgrounds/pattern26.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev27 {
+	background:url("../images/backgrounds/pattern27.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev28 {
+	background:url("../images/backgrounds/pattern28.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev29 {
+	background:url("../images/backgrounds/pattern29.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev30 {
+	background:url("../images/backgrounds/pattern30.gif") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev31 {
+	background:url("../images/backgrounds/pattern31.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev32 {
+	background:url("../images/backgrounds/pattern32.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev33 {
+	background:url("../images/backgrounds/pattern33.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev34 {
+	background:url("../images/backgrounds/pattern34.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev35 {
+	background:url("../images/backgrounds/pattern35.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev36 {
+	background:url("../images/backgrounds/pattern36.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev37 {
+	background:url("../images/backgrounds/pattern37.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev38 {
+	background:url("../images/backgrounds/pattern38.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev39 {
+	background:url("../images/backgrounds/pattern39.png") top left repeat;
+	background-color:#f8f8f8;
+}
+.prev40 {
+	background:url("../images/backgrounds/pattern40.png") top left repeat;
+	background-color:#f8f8f8;
+}
+
+
+
+
+
+
+
+/* Clear Fix Hack ------------------------------------------------------------------------------------*/
+
+
+.fixed:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.fixed {
+	display:block;
+}
+/*  \*/
+.fixed {
+	min-height:1%;
+}
+* html .fixed {
+	height:1%;
+}
+.last {
+	margin-right:0px;
+}
+.clear {
+	clear:both;
+	font-size: 0;
+	line-height: 0;
+	height: 0
+}

@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fan_box a:hover{
+  text-decoration: none;
+}
+.fan_box .full_widget{
+  height: 300px !important;
+  width:100%;
+  overflow:hidden !important;
+  border: 0 !important;
+  background: none !important;
+  position: relative;
+}
+.fan_box .connect_top{
+  background: none !important;
+  padding: 0 !important;
+}
+.fan_box .profileimage, .fan_box .name_block{
+  display: none;
+}
+.fan_box .connect_action{
+  padding: 0 !important;
+}
+.fan_box .connections{
+  padding: 0 !important;
+  border: 0 !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #666;
+}
+span.total{
+  color: #666666;
+  font-weight: bold;
+  left: 0px;
+  margin: 0 !important;
+}
+.fan_box .connections .connections_grid {
+  padding-top: 10px !important;
+}
+#container_boxed #footer .fan_box .connections_grid .grid_item{
+  padding: 0 26px 10px 0 !important;
+}
+.fan_box .connections_grid .grid_item{
+  padding: 0 0px 10px 0 !important;
+  text-align:center !important;
+  margin-right:10px !important;
+  width:62px !important;
+}
+.fan_box .connections_grid .grid_item .name{
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+  font-weight: normal;
+  color: #666 !important;
+  padding-top: 1px !important;
+  width:100% !important;
+}
+.fan_box .grid_item img {
+  margin-bottom: 8px !important;
+  padding: 5px !important;
+  background: #fff !important;
+  border: 1px solid #e5e5e5 !important;
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-khtml-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+}
+.fan_box .grid_item a:hover img {
+  background: #e9e9e9 !important;
+  border: 1px solid #999999 !important;
+
+}
+.fan_box .connect_top{
+position: absolute;
+top: 240px;
+left: 0px;
+margin: 0 !important;
+}
+.fan_box .connect_top .connect_widget_interactive_area {
+margin: 0 !important;
+}
+.fan_box .connect_top td.connect_widget_vertical_center {
+padding: 0 !important;
+}

@@ -1,0 +1,49 @@
+/* -----------------------------------------------------
+// News Module for BigOne Premium theme by Dimitar Koev 
+// Copyright (C) 2012 Dimitar Koev. All Rights Reserved!
+// Author: Dimitar Koev
+// Author websites: http://www.althemist.com  /  http://www.dimitarkoev.com
+// @license - Copyrighted Commercial Software                           
+// support@althemist.com                          
+//------------------------------------------------------
+*/
+
+/* News Module Box */
+
+/* News Information Page */
+.content-news {
+	background: #FBFBFB;
+	padding: 10px;
+	margin-bottom: 10px;
+	overflow: auto;
+	border: 1px solid #DBDEE1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 2px 2px silver;
+	-moz-box-shadow: 0px 2px 2px silver;
+	box-shadow: 0px 2px 2px silver;
+}
+.content-news .news {
+	width: 100%;
+}
+.content-news .news a {
+	text-decoration: none;
+}
+.content-news .news h3 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #444;
+	text-shadow: 0 1px 1px silver;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.content-news .news p {
+	margin: 5px 0px;
+}
+.content-news .news .image {
+	width: auto;
+	float: right;
+	margin: 5px;
+}
